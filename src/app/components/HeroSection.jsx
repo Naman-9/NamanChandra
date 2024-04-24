@@ -45,11 +45,11 @@ const HeroSection = () => {
 
             <TypeAnimation
               sequence={[
-                'FrontEnd Development',
+                ' FrontEnd Development',
                 1000,
-                'Backend Development',
+                ' Backend Development',
                 1000,
-                'FullStack Development',
+                ' FullStack Development',
                 1000,
               ]}
               wrapper="span"
