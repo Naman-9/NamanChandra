@@ -6,20 +6,19 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 const HeroSection = () => {
-
   const handleDownloadCV = () => {
     // Construct the URL to your CV file
     const cvUrl = '/Naman_chandra_resume-t1.pdf';
-    
+
     // Create a temporary link element
     const link = document.createElement('a');
     link.href = cvUrl;
     link.setAttribute('download', 'Naman_chandra_resume.pdf');
-    
+
     // Append the link to the body and trigger the download
     document.body.appendChild(link);
     link.click();
-    
+
     // Clean up by removing the link from the body
     document.body.removeChild(link);
   };
@@ -35,14 +34,15 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{' '} Naman
+              Hello, I&apos;m Naman
             </span>
             <br></br>
           </h1>
           <h2 className="text-white mb-4 md:text-large sm:text-md lg:text-xl lg:leading-normal font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              I'm into &nbsp;
+              Hello, I&apos;m Naman
             </span>
+
             <TypeAnimation
               sequence={[
                 'FrontEnd Development',
@@ -57,9 +57,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h2>
-          <>
-          
-          </>
+          <></>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             I focus on developing user-friendly web applications that meet the client's
             requirements, with attention to detail, scalability, and performance.
@@ -72,7 +70,6 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <button
-             
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
               onClick={handleDownloadCV}
             >
