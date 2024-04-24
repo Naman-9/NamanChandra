@@ -98,8 +98,8 @@ const projectsData = [
       <ul className="list-disc pl-2">
         <li>
           Developed a MERN (MongoDB, Express.js, React, Node.js) web application that enables users
-          to capture pictures and videos through the browser's camera, apply filters, and save them
-          locally using the browser's storage.
+          to capture pictures and videos through the browser&apos;s camera, apply filters, and save them
+          locally using the browser&apos;s storage.
         </li>
         <li>
           Implemented features for real-time filtering and editing using JavaScript libraries.

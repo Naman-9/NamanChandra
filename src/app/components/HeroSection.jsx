@@ -40,7 +40,7 @@ const HeroSection = () => {
           </h1>
           <h2 className="text-white mb-4 md:text-large sm:text-md lg:text-xl lg:leading-normal font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m Naman
+              I&apos;m
             </span>
 
             <TypeAnimation
@@ -59,7 +59,7 @@ const HeroSection = () => {
           </h2>
           <></>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I focus on developing user-friendly web applications that meet the client's
+            I focus on developing user-friendly web applications that meet the client&apos;s
             requirements, with attention to detail, scalability, and performance.
           </p>
           <div>
